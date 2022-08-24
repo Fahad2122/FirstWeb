@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log In</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <style>
+	input { padding: 10px; margin: 30px 5px; }
+	input, label, #top1 { left: 35%; }
+	#smallbox { left: 5%;}
+  </style>
+</head>
+<body>
+  <h1>SubWay</h1>
+  <hr/>
+  
+  <div id="bigbox">
+    <p id="top1"><b>log in</b></p>
+	<div id="smallbox">
+	  <span id="sign">Log In!</span>
+	  <p id="already">Aleady have an account?</p>
+	  <a href="signup.html" id="loglink">Sign Up</a>
+	</div>
+	<form>
+	  <label for="mail">Mail Address</label>
+	  <br/>
+	  <input type="mail" id="mail" placeholder="your Mail Address..">
+	  <br/>
+	  <label for="password">Password</label>
+	  <br/>
+	  <input type="password" id="password" name="password" placeholder="your Password..">
+	  <input type="submit" value="Submit" onclick="alert('Signup successfully. verify your account')">
+	</form>
+  </div>
+</body>
+<html>

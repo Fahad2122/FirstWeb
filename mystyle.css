@@ -1,0 +1,100 @@
+body {
+	background-color: black;
+	display: grid;
+	place-items: center;
+}
+h1 {
+	color: #E74C3C;
+}
+#top1 {
+	font-size: 38px;
+	color: red;
+	text-transform: capitalize;
+	margin: 10px 10px;
+	position: relative;
+}
+#bigbox {
+	border: 1px hidden black;
+	position: relative;
+	padding: 10px;
+	background-color: pink;
+	width: 50%;
+	height: 100%;
+	border-radius: 18px;
+	text-shadow: 2px 3px 5px white;
+}
+#smallbox {
+	border: 1px hidden white;
+	position: absolute;
+	left: 65%;
+	top: 0%;
+	width: 30%;
+	height: 100%;
+	background: url('rail2.jpg') center;
+	background-repeat: no-repeat;
+	color: white;
+	display: inline-block;
+	text-align: center;
+}
+a {
+	color: white;
+}
+#sign {
+	position: relative;
+	top: 8%;
+	font-size: 30px;
+	color: black;
+}
+#already {
+	position: relative;
+	top: 280px;
+	font-size: 16px;
+	color: black;
+	
+}
+#loglink {
+	position: relative;
+	top: 290px;
+	background-color: blue;
+	padding: 10px 80px;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+	
+}
+#pic1 {
+	background-image: url('rail1.jpg');
+	z-index: 1;
+}
+input, label, select {
+	width: 60%;
+	margin: 5px;
+	padding: 5px;
+	position: relative;
+}
+input, select {
+	align: center;
+}
+#country {
+	text-align: center;
+}
+[type="submit"] {
+	background-color: #E74C3C;
+	color: white;
+	cursor: pointer;
+	padding: 10px 0px;
+	font-family: sans-serif;
+	font-size: 20px;
+	border-radius: 10px;
+}
+[type="submit"]:hover {
+
+}
+[type="submit"]:active {
+	color: #E74C3C;
+}
+input[type="text"]:focus {
+	border: 2px solid #555;
+}
